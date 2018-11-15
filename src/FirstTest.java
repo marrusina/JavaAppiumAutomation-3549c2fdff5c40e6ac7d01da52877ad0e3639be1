@@ -71,7 +71,7 @@ public class FirstTest extends CoreTestCase {
 
         MyListsPageObject MyListsPageObject = new MyListsPageObject(driver);
         MyListsPageObject.openFolderByName(name_of_folder);
-        MyListsPageObject.swipeByArticleToDelete(article_title);
+       // MyListsPageObject.swipeByArticleToDelete(article_title);
 
        // int amount_of_search_results = SearchPageObject.getAmountOfFoundArticlesAfterDeletion();
         //assertTrue(

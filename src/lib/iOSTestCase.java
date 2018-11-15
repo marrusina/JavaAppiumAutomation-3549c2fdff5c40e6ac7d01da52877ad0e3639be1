@@ -8,8 +8,9 @@ import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
+import java.time.Duration;
 
-public class IOSTestCase extends TestCase {
+public class iOSTestCase extends TestCase {
     protected AppiumDriver driver;
     private static String AppiumUrl = "http://127.0.0.1:4723/wd/hub";
     @Override
@@ -22,6 +23,7 @@ public class IOSTestCase extends TestCase {
         //capabilities.setCapability("app", "/Users/rusina/Desktop/JavaAppiumAutomation/apks/org.wikipedia.apk");
         capabilities.setCapability("app", "/Users/marinarusina/Desktop/JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1/apks/Wikipedia.app");
         driver = new IOSDriver(new URL(AppiumUrl), capabilities);
+        //this.backgroundApp();
     }
     @Override
     protected void tearDown() throws Exception
@@ -39,10 +41,11 @@ public class IOSTestCase extends TestCase {
     {
         driver.rotate(ScreenOrientation.LANDSCAPE);
     }
-    protected void backgroundApp(int seconds)
-    {
-        driver.runAppInBackground(seconds);
-    }
 
-
+   //Duration seconds = Duration.ofSeconds(2);
+    protected void backgroundApp(int seconds) { driver.runAppInBackground(seconds); }
+//    protected void backgroundApp()
+//    {
+//        driver.runAppInBackground(Duration.ofSeconds(2));
+//    }
 }

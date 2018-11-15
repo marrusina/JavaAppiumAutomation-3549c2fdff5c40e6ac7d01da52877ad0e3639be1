@@ -39,10 +39,10 @@ public class CoreTestCase extends TestCase {
     {
         driver.rotate(ScreenOrientation.LANDSCAPE);
     }
-    protected void backgroundApp(int seconds)
-    {
-        driver.runAppInBackground(seconds);
-    }
+   // protected void backgroundApp(int seconds)
+   // {
+    //    driver.runAppInBackground(seconds);
+    //}
 
 
 }

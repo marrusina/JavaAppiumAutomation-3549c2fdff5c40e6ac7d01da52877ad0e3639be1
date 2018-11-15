@@ -2,34 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb3c4fb-01c0-41c9-931e-3f12705357e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_client_6_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_client_6_1_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_121.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_141_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/java_client_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_141_51.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAppiumAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAppiumAutomation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/java-client-4.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/junit-4.12.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/CoreTestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/ArticlePageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MainPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MyListsPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/NavigationUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/SearchPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ArticleTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ChangeAppConditionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/MyListsTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/SearchTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/IOSTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/IOSTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/CoreTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/CoreTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/IOSTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/IOSTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/ArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/ArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MainPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MainPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MyListsPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MyListsPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ArticleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ArticleTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ChangeAppConditionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ChangeAppConditionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/IOS/GetStartedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/IOS/GetStartedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/MyListsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/MyListsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/CoreTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/CoreTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/IOSTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/iOSTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ArticleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ArticleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/MyListsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/MyListsTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,23 +69,50 @@
     <session id="-220335850">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="class" value="5" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="458" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="458" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="java" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/IOSTestCase.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lib/iOSTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="132" selection-start-line="22" selection-start-column="132" selection-end-line="22" selection-end-column="132" />
+            <state relative-caret-position="538">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
@@ -109,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,11 +157,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java" />
         <option value="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" />
+        <option value="$PROJECT_DIR$/src/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/ArticleTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/MyListsTests.java" />
+        <option value="$PROJECT_DIR$/src/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java" />
         <option value="$PROJECT_DIR$/src/lib/IOSTestCase.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/iOSTestCase.java" />
+        <option value="$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java" />
       </list>
     </option>
   </component>
@@ -156,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -168,17 +196,25 @@
             <path>
               <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaAppiumAutomation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1" type="b2602c69:ProjectViewProjectNode" />
@@ -208,10 +244,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542282023793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542301753271" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -271,34 +308,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.11 at 14h 31m 30s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 17h 43m 55s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.11 at 14h 33m 35s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 17h 47m 01s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.11 at 14h 37m 12s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 17h 47m 33s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.11 at 14h 38m 36s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 18h 20m 52s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.11 at 14h 48m 01s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 18h 21m 24s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 14h 34m 12s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 18h 23m 38s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 14h 34m 32s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 18h 25m 05s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 14h 34m 47s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 18h 28m 50s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 14h 37m 36s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 19h 10m 04s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 14h 39m 53s.xml">
+    <history-entry file="GetStartedTest_testPassThroughWelcome - 2018.11.15 at 19h 17m 34s.xml">
       <configuration name="GetStartedTest.testPassThroughWelcome" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -310,15 +347,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26435935" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.58074075" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.74222225" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.61333334" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -360,56 +397,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/java-client-4.1.2.jar!/io/appium/java_client/DefaultGenericMobileDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/java-client-4.1.2.jar!/io/appium/java_client/DefaultGenericMobileDriver.class" />
     <entry file="file://$PROJECT_DIR$/src/lib/ui/SearchPageObject.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        <state relative-caret-position="598">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/java-client-6.1.0.jar!/io/appium/java_client/InteractsWithApps.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ArticleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/MyListsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/iOSTestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/CoreTestCase.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/CoreTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#2423#2424#0" expanded="true" />
-            <element signature="e#2451#2452#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
@@ -418,17 +492,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/IOSTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="132" selection-start-line="22" selection-start-column="132" selection-end-line="22" selection-end-column="132" />
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/IOS/GetStartedTest.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/iOSTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="538">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -500,7 +577,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>selenium-server-standalone-3.141.51</last-edited>
+          <last-edited>selenium-server-standalone-3.4.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

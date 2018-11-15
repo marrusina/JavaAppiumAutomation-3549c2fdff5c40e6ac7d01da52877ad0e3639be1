@@ -1,6 +1,6 @@
 package lib.ui;
 import io.appium.java_client.AppiumDriver;
-import org.apache.xerces.impl.dv.xs.AbstractDateTimeDV;
+//import org.apache.xerces.impl.dv.xs.AbstractDateTimeDV;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 public class ArticlePageObject extends MainPageObject{
@@ -27,14 +27,14 @@ public class ArticlePageObject extends MainPageObject{
         WebElement title_element = waitForTitleElement();
         return title_element.getAttribute("text");
     }
-        public void swipeToFooter()
-    {
-        this.swipeUpToFindElement(
-                By.xpath(FOOTER_ELEMENT),
-                "Cannot find the end of article",
-                20
-        );
-    }
+//        public void swipeToFooter()
+//    {
+//        this.swipeUpToFindElement(
+//                By.xpath(FOOTER_ELEMENT),
+//                "Cannot find the end of article",
+//                20
+//        );
+//    }
     public void addArticleToMyList(String name_of_folder)
     {
         this.waitForElementAndClick(

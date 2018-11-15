@@ -55,16 +55,16 @@ public class MyListsPageObject extends MainPageObject {
 
     }
 
-    public void swipeByArticleToDelete(String article_title)
-    {
-        this.waitForArticleToAppearByTitle(article_title);
-        String article_xpath = getFolderXpathByName(article_title);
-        this.swipeElementToLeft(
-                By.xpath(article_xpath),
-                "Cannot find saved article and click"
-        );
-        this.waitForArticleToDisappearByTitle(article_title);
-    }
+//    public void swipeByArticleToDelete(String article_title)
+//    {
+//        this.waitForArticleToAppearByTitle(article_title);
+//        String article_xpath = getFolderXpathByName(article_title);
+//        this.swipeElementToLeft(
+//                By.xpath(article_xpath),
+//                "Cannot find saved article and click"
+//        );
+//        this.waitForArticleToDisappearByTitle(article_title);
+//    }
 
 
 

@@ -1,16 +1,18 @@
 
 package tests.IOS;
 
-import lib.IOSTestCase;
+import lib.iOSTestCase;
 import lib.ui.WelcomePageObject;
 import org.junit.Test;
+import java.time.Duration;
 
-public class GetStartedTest extends IOSTestCase {
+public class GetStartedTest extends iOSTestCase {
 
     @Test
 
     public void testPassThroughWelcome()
     {
+
         WelcomePageObject WelcomePage = new WelcomePageObject(driver);
         WelcomePage.waitForLearnMoreLink();
         WelcomePage.clickNextButton();
