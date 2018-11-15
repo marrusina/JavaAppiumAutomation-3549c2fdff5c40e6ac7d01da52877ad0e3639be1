@@ -24,6 +24,7 @@ public class WelcomePageObject extends MainPageObject
     {
         this.waitForElementPresent(By.id(STEP_LEARN_MORE_LINK), "Cannot find 'Learn more about Wikipedia' link'", 15);
 
+
     }
 
     public void waitForNewWayToExploreText()
