@@ -18,9 +18,9 @@ public class IOSTestCase extends TestCase {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "IOS");
         capabilities.setCapability("deviceName", "iPhone SE");
-        capabilities.setCapability("platformVersion", "11.3");
+        capabilities.setCapability("platformVersion", "12.1");
         //capabilities.setCapability("app", "/Users/rusina/Desktop/JavaAppiumAutomation/apks/org.wikipedia.apk");
-        capabilities.setCapability("app", "/Users/marinarusina/Documents/GitHub/JavaAppiumAutomation/apks/Wikipedia.app");
+        capabilities.setCapability("app", "/Users/marinarusina/Desktop/JavaAppiumAutomation-3549c2fdff5c40e6ac7d01da52877ad0e3639be1/apks/Wikipedia.app");
         driver = new IOSDriver(new URL(AppiumUrl), capabilities);
     }
     @Override
