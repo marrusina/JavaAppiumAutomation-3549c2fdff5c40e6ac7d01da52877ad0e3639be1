@@ -36,7 +36,7 @@ public class ArticleTests extends CoreTestCase
         SearchPageObject.clickByArticleWithSubstring("Appium");
         ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
         ArticlePageObject.waitForTitleElement();
-        //ArticlePageObject.swipeToFooter();
+        ArticlePageObject.swipeToFooter();
 
     }
 }

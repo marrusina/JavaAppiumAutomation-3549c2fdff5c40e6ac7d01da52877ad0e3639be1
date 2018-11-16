@@ -1,12 +1,15 @@
 
 package tests.IOS;
 
+import lib.CoreTestCase;
 import lib.iOSTestCase;
 import lib.ui.WelcomePageObject;
 import org.junit.Test;
 import java.time.Duration;
 
-public class GetStartedTest extends iOSTestCase {
+//public class GetStartedTest extends iOSTestCase {
+public class GetStartedTest extends CoreTestCase {
+
 
     @Test
 

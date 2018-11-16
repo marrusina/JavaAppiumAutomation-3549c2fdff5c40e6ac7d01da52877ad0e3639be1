@@ -7,7 +7,8 @@ public class NavigationUI extends MainPageObject {
 
     private static final String
         //MY_LISTS_LINK = "//android.widget.ImageButton[@content-desc='Navigate up']";
-    MY_LISTS_LINK = "//android.widget.FrameLayout[@content-desc='My lists']";
+    MY_LISTS_LINK = "xpath://android.widget.FrameLayout[@content-desc='My lists']",
+    MY_NAV_TAB_LAYOUT = "id:org.wikipedia:id/fragment_main_nav_tab_layout";
 
 
     public NavigationUI(AppiumDriver driver)
@@ -18,12 +19,12 @@ public class NavigationUI extends MainPageObject {
     public void clickMyLists()
     {
         this.waitForElementPresent(
-                By.id("org.wikipedia:id/fragment_main_nav_tab_layout"),
+                MY_NAV_TAB_LAYOUT,
                 "Cannot load tab with my lists",
                 60
         );
         this.waitForElementAndClick(
-                By.xpath(MY_LISTS_LINK),
+                MY_LISTS_LINK,
                 "Cannot find my lists link",
                 60
         );
