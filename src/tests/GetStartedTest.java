@@ -1,11 +1,10 @@
 
-package tests.IOS;
+package tests;
 
 import lib.CoreTestCase;
-import lib.iOSTestCase;
+import lib.Platform;
 import lib.ui.WelcomePageObject;
 import org.junit.Test;
-import java.time.Duration;
 
 //public class GetStartedTest extends iOSTestCase {
 public class GetStartedTest extends CoreTestCase {
@@ -15,6 +14,9 @@ public class GetStartedTest extends CoreTestCase {
 
     public void testPassThroughWelcome()
     {
+        if (Platform.getInstance().isAndroid()) {
+            return;
+        }
 
         WelcomePageObject WelcomePage = new WelcomePageObject(driver);
         WelcomePage.waitForLearnMoreLink();

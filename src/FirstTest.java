@@ -1,5 +1,6 @@
 import lib.CoreTestCase;
 import lib.ui.*;
+import lib.ui.factories.SearchPageObjectFactory;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -10,7 +11,7 @@ public class FirstTest extends CoreTestCase {
     @Test
     public void testCancelSearch()
     {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
         SearchPageObject.initSearchInput();
         String search_line = "Java";
         SearchPageObject.typeSearchLine(search_line);
@@ -32,7 +33,7 @@ public class FirstTest extends CoreTestCase {
     @Test
     public void testCheckArticleTitle()
     {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("c++");
         SearchPageObject.clickByArticleWithSubstring("General purpose high-level programming language");
@@ -44,7 +45,7 @@ public class FirstTest extends CoreTestCase {
     public void testSaveAndDeleteArticle()
     {
 
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.clickByArticleWithSubstring("Object-oriented programming language");

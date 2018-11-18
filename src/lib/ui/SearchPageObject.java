@@ -6,16 +6,16 @@ import org.openqa.selenium.By;
 import java.awt.*;
 import java.util.List;
 
-public class SearchPageObject extends MainPageObject{
-    private static final String
-            SEARCH_INIT_ELEMENT = "xpath://*[contains(@text,'Search Wikipedia')]",
-            SEARCH_INPUT = "xpath://*[contains(@text,'Search…')]",
-            SEARCH_CANCEL_BUTTON = "id:org.wikipedia:id/search_close_btn",
-            SEARCH_RESULT_BY_SUBSTRING_TPL = "xpath://android.widget.LinearLayout[@text='{SUBSTRING}']",
-            SEARCH_RESULT_BY_TWO_TPL = "xpath://*[@text='{SUBSTRING}']/following-sibling::android.widget.TextView[@text='{DESCRIPTION}']",
-
-    SEARCH_RESULT_ELEMENT = "xpath://*[@resource-id='org.wikipedia:id/search_results_list']/*[@resource-id='org.wikipedia:id/page_list_item_container']",
-            SEARCH_EMPTY_RESULT_ELEMENT = "xpath://*[@text='No results found']";
+abstract public class SearchPageObject extends MainPageObject{
+     protected static String
+            SEARCH_INIT_ELEMENT,
+            SEARCH_INPUT,
+            SEARCH_CANCEL_BUTTON,
+            SEARCH_RESULT_BY_SUBSTRING_TPL,
+            SEARCH_RESULT_BY_TWO_TPL,
+            SEARCH_RESULT_ELEMENT,
+            SEARCH_NO_SUBSTRING,
+            SEARCH_EMPTY_RESULT_ELEMENT;
 
     public SearchPageObject(AppiumDriver driver)
     {
@@ -40,6 +40,11 @@ public class SearchPageObject extends MainPageObject{
     {
         this.waitForElementAndClick(SEARCH_INIT_ELEMENT, "Cannot find and click search element", 5);
         this.waitForElementPresent(SEARCH_INIT_ELEMENT, "Cannot find search input after clicking search element");
+    }
+
+    public void NoworksSelenium()
+    {
+        this.waitForElementPresent(SEARCH_NO_SUBSTRING, "No xpath for IOS", 15);
     }
 
     public void waitForCancelButtomToAppear()
