@@ -70,7 +70,7 @@ abstract public class SearchPageObject extends MainPageObject{
     public void waitForSearchResult(String substring)
     {
         String search_result_xpath = getResultSearchElement(substring);
-        this.waitForElementPresent(search_result_xpath, "Cannot find search result" + substring,15);
+        this.waitForElementPresent(search_result_xpath, "Cannot find search result" + substring,30);
     }
 
     public void waitForElementByTitleAndDescription(String substring, String description)
