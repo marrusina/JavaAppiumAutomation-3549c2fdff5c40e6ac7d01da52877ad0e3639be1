@@ -1,23 +1,27 @@
 package lib.ui;
 import io.appium.java_client.AppiumDriver;
+//import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebElement;
+import lib.Platform;
 
-public class ArticlePageObject extends MainPageObject{
-    private static final String
-            TITLE = "id:org.wikipedia:id/view_page_title_text",
-     FOOTER_ELEMENT = "xpath://*[@text='View page in browser']",
-    OPTIONS_BUTTON = "xpath://android.widget.ImageView[@content-desc='More options']",
-            OPTIONS_ADD_TO_MY_LIST_BUTTON = "xpath://*[@text='Add to reading list']",
-            ADD_TO_MY_LIST_OVERLAY = "id:org.wikipedia:id/onboarding_button",
-            MY_LIST_NAME_INPUT = "id:org.wikipedia:id/text_input",
-            MY_LIST_OKEY_BUTTON = "xpath://*[@text='OK']",
-            MY_LIST_NAME = "xpath://*[@text='Learning programming']",
-            MY_LIST_VIEW = "className:android.widget.ListView",
-            CLOSE_ARTICLE_BUTTON = "xpath://android.widget.ImageButton[@content-desc='Navigate up']";
+abstract public class ArticlePageObject extends MainPageObject{
+
+    protected static String
+            TITLE,
+            FOOTER_ELEMENT,
+            OPTIONS_BUTTON,
+            OPTIONS_ADD_TO_MY_LIST_BUTTON,
+            ADD_TO_MY_LIST_OVERLAY,
+            MY_LIST_NAME_INPUT,
+            MY_LIST_OKEY_BUTTON,
+            MY_LIST_NAME,
+            MY_LIST_VIEW,
+            CLOSE_ARTICLE_BUTTON;
     public ArticlePageObject(AppiumDriver driver)
     {
         super(driver);
     }
+
     public WebElement waitForTitleElement()
     {
         return this.waitForElementPresent(TITLE, "Cannot find article by title", 5);
@@ -25,15 +29,27 @@ public class ArticlePageObject extends MainPageObject{
     public String getArticleTitle()
     {
         WebElement title_element = waitForTitleElement();
-        return title_element.getAttribute("text");
+        if(Platform.getInstance().isAndroid()){
+            return title_element.getAttribute("text");
+        } else {
+            return title_element.getAttribute("name");
+        }
+
     }
         public void swipeToFooter()
     {
-        this.swipeUpToFindElement(
-                FOOTER_ELEMENT,
-                "Cannot find the end of article",
-                20
-        );
+        if(Platform.getInstance().isAndroid()) {
+            this.swipeUpToFindElement(
+                    FOOTER_ELEMENT,
+                    "Cannot find the end of article",
+                    40
+            );
+        } else {
+            this.swipeUpTillElementAppear(FOOTER_ELEMENT,
+            "Cannot find the end of article",
+            40);
+
+        }
     }
     public void addArticleToMyList(String name_of_folder)
     {
