@@ -68,11 +68,11 @@ public class FirstTest extends CoreTestCase {
         ArticlePageObject.addSecondArticleToMyList(name_of_folder);
         ArticlePageObject.closeArticle();
 
-        NavigationUI NavigationUI = new NavigationUI(driver);
-        NavigationUI.clickMyLists();
+       // NavigationUI NavigationUI = ArticlePageObject.getArticleTitle(driver);
+       // NavigationUI.clickMyLists();
 
-        MyListsPageObject MyListsPageObject = new MyListsPageObject(driver);
-        MyListsPageObject.openFolderByName(name_of_folder);
+       // MyListsPageObject MyListsPageObject = ArticlePageObject.getArticleTitle(driver);
+       // MyListsPageObject.openFolderByName(name_of_folder);
        // MyListsPageObject.swipeByArticleToDelete(article_title);
 
        // int amount_of_search_results = SearchPageObject.getAmountOfFoundArticlesAfterDeletion();

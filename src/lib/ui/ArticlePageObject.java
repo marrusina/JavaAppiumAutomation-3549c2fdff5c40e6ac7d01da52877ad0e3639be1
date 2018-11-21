@@ -16,6 +16,7 @@ abstract public class ArticlePageObject extends MainPageObject{
             MY_LIST_OKEY_BUTTON,
             MY_LIST_NAME,
             MY_LIST_VIEW,
+            CLOSE_SYNC_WINDOW,
             CLOSE_ARTICLE_BUTTON;
     public ArticlePageObject(AppiumDriver driver)
     {
@@ -24,7 +25,7 @@ abstract public class ArticlePageObject extends MainPageObject{
 
     public WebElement waitForTitleElement()
     {
-        return this.waitForElementPresent(TITLE, "Cannot find article by title", 5);
+        return this.waitForElementPresent(TITLE, "Cannot find article by title", 15);
     }
     public String getArticleTitle()
     {
@@ -118,12 +119,34 @@ abstract public class ArticlePageObject extends MainPageObject{
                 15
         );
     }
+
+    public void addArticlesToMySaved()
+    {
+     this.waitForElementAndClick(OPTIONS_ADD_TO_MY_LIST_BUTTON, "Cannot find option to add article to reading list",5);
+    }
+
     public void closeArticle()
     {
-        this.waitForElementAndClick(
-                CLOSE_ARTICLE_BUTTON,
-                "Cannot close article, cannot find X link",
-                60
-        );
+        if (Platform.getInstance().isIOS()){
+            this.waitForElementAndClick(CLOSE_SYNC_WINDOW, "The window is still on the screen", 20);
+            this.waitForElementAndClick(
+                    CLOSE_ARTICLE_BUTTON,
+                    "Cannot close article, cannot find X link",
+                    30
+            );
+        } else {
+            this.waitForElementAndClick(
+                    CLOSE_ARTICLE_BUTTON,
+                    "Cannot close article, cannot find X link",
+                    20
+            );
+        }
     }
+
+    public void closeIOS()
+    {
+        this.closeIOSMessage();
+    }
+
+
 }

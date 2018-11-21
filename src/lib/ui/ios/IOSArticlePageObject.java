@@ -11,6 +11,7 @@ public class IOSArticlePageObject extends ArticlePageObject {
        // MY_LIST_NAME = "xpath://*[@text='Learning programming']";
        // MY_LIST_VIEW = "className:android.widget.ListView";
         CLOSE_ARTICLE_BUTTON = "id:Back";
+        CLOSE_SYNC_WINDOW = "id:places auth close";
     }
 
     public IOSArticlePageObject(AppiumDriver driver) {
