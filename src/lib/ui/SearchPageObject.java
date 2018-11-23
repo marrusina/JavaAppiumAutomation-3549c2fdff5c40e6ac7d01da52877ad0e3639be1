@@ -15,6 +15,7 @@ abstract public class SearchPageObject extends MainPageObject{
             SEARCH_RESULT_BY_TWO_TPL,
             SEARCH_RESULT_ELEMENT,
             SEARCH_NO_SUBSTRING,
+             SEARCH_CLEAR_MINI,
             SEARCH_EMPTY_RESULT_ELEMENT;
 
     public SearchPageObject(AppiumDriver driver)
@@ -45,6 +46,22 @@ abstract public class SearchPageObject extends MainPageObject{
     public void NoworksSelenium()
     {
         this.waitForElementPresent(SEARCH_NO_SUBSTRING, "No xpath for IOS", 15);
+    }
+
+
+    public void waitForClearMiniButtomToAppear()
+    {
+        this.waitForElementPresent(SEARCH_CLEAR_MINI, "Cannot find search cancel button", 5);
+    }
+
+    public void waitForClearMiniButtomToDisappear()
+    {
+        this.waitForElementNotPresent(SEARCH_CLEAR_MINI, "Search cancel button is still present", 5);
+    }
+
+    public void clickClearMiniSearch()
+    {
+        this.waitForElementAndClick(SEARCH_CLEAR_MINI, "Cannot find and click search cansel button", 5);
     }
 
     public void waitForCancelButtomToAppear()

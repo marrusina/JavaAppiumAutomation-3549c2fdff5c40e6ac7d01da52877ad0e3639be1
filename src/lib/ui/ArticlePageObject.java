@@ -8,6 +8,7 @@ abstract public class ArticlePageObject extends MainPageObject{
 
     protected static String
             TITLE,
+            TITLE_SECOND,
             FOOTER_ELEMENT,
             OPTIONS_BUTTON,
             OPTIONS_ADD_TO_MY_LIST_BUTTON,
@@ -30,6 +31,21 @@ abstract public class ArticlePageObject extends MainPageObject{
     public String getArticleTitle()
     {
         WebElement title_element = waitForTitleElement();
+        if(Platform.getInstance().isAndroid()){
+            return title_element.getAttribute("text");
+        } else {
+            return title_element.getAttribute("name");
+        }
+
+    }
+
+    public WebElement waitForSecondTitleElement()
+    {
+        return this.waitForElementPresent(TITLE_SECOND, "Cannot find second article by title", 15);
+    }
+    public String getSecondArticleTitle()
+    {
+        WebElement title_element = waitForSecondTitleElement();
         if(Platform.getInstance().isAndroid()){
             return title_element.getAttribute("text");
         } else {
@@ -129,6 +145,24 @@ abstract public class ArticlePageObject extends MainPageObject{
     {
         if (Platform.getInstance().isIOS()){
             this.waitForElementAndClick(CLOSE_SYNC_WINDOW, "The window is still on the screen", 20);
+            this.waitForElementAndClick(
+                    CLOSE_ARTICLE_BUTTON,
+                    "Cannot close article, cannot find X link",
+                    30
+            );
+        } else {
+            this.waitForElementAndClick(
+                    CLOSE_ARTICLE_BUTTON,
+                    "Cannot close article, cannot find X link",
+                    20
+            );
+        }
+    }
+
+    public void closeSecondArticle()
+    {
+        if (Platform.getInstance().isIOS()){
+           // this.waitForElementAndClick(CLOSE_SYNC_WINDOW, "The window is still on the screen", 20);
             this.waitForElementAndClick(
                     CLOSE_ARTICLE_BUTTON,
                     "Cannot close article, cannot find X link",

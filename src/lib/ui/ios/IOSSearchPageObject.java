@@ -11,6 +11,7 @@ public class IOSSearchPageObject extends SearchPageObject
         //SEARCH_INPUT = "xpath://XCUIElementTypeSearchField[@value='Search Wikipedia']";
         SEARCH_INPUT = "xpath://XCUIElementTypeApplication[@name='Wikipedia']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeSearchField";
         SEARCH_CANCEL_BUTTON = "id:Close";
+        SEARCH_CLEAR_MINI = "id:clear mini";
         SEARCH_RESULT_BY_SUBSTRING_TPL = "xpath://XCUIElementTypeLink[contains(@name,'{SUBSTRING}')]";
         //XCUIElementTypeLink[contains(@name, 'Java (programming language)')]
         //XCUIElementTypeLink[@name="Java (programming language) Object-oriented programming language"]
