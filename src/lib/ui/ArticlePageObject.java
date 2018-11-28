@@ -26,7 +26,7 @@ abstract public class ArticlePageObject extends MainPageObject{
 
     public WebElement waitForTitleElement()
     {
-        return this.waitForElementPresent(TITLE, "Cannot find article by title", 15);
+        return this.waitForElementPresent(TITLE, "Cannot find article by title", 25);
     }
     public String getArticleTitle()
     {
